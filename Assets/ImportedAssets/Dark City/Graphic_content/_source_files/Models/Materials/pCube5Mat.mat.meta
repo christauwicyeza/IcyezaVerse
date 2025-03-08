@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 16d606d57d512eb4282ca7419fdce4ee
+timeCreated: 1434442101
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 9905
+  packageName: Dark City
+  packageVersion: 1.1
+  assetPath: Assets/Dark City/Graphic_content/_source_files/Models/Materials/pCube5Mat.mat
+  uploadId: 68450
