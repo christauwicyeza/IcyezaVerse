@@ -55,3 +55,11 @@ For a comprehensive understanding of the design process and to access the Figma 
 ## Deployment Plan
 
 IcyezaVerse will be deployed on [SideQuest](https://sidequestvr.com/), a platform for distributing VR applications. To prepare for deployment:
+
+## Video
+
+Project workthrough (https://youtu.be/5V7OgadLxB8)
+
+## IcyezaVerse Apk
+
+apk: (https://drive.google.com/file/d/1RaMH0ZskvmBanqvktQE8iIcRLD17RqpZ/view?usp=sharing)
