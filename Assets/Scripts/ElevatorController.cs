@@ -12,6 +12,7 @@ public class ElevatorController : MonoBehaviour
     public AudioSource elevatorSound;
     public float basePitch = 1f; 
     public float pitchMultiplier = 0.2f; 
+    public GameObject openButton;
 
     private float currentSpeed;
     private bool isMoving = false;
@@ -48,6 +49,7 @@ public class ElevatorController : MonoBehaviour
     {
         if (!isMoving && !reachedTop)
         {
+            openButton.SetActive(false);
             isStopped = false;
             reachedBottom = false;
             StartCoroutine(MoveElevator(true));
@@ -58,6 +60,7 @@ public class ElevatorController : MonoBehaviour
     {
         if (!isMoving && !reachedBottom)
         {
+            openButton.SetActive(false);
             isStopped = false;
             reachedTop = false;
             StartCoroutine(MoveElevator(false));
@@ -70,6 +73,7 @@ public class ElevatorController : MonoBehaviour
         isMoving = false;
         StopAllCoroutines();
         StopElevatorSound();
+        openButton.SetActive(true);
     }
 
     public void SetNormalSpeed()
@@ -110,6 +114,7 @@ public class ElevatorController : MonoBehaviour
                 lift.position = new Vector3(lift.position.x, targetY, lift.position.z);
                 isMoving = false;
                 StopElevatorSound();
+                openButton.SetActive(true);
 
                 if (movingUp)
                     reachedTop = true;
