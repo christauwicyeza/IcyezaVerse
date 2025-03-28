@@ -13,18 +13,18 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: wildxr
-  productName: MindScape
+  productName: IcyezaVerse
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.101960786, g: 0.14901961, b: 0.19607843, a: 1}
+  m_SplashScreenBackgroundColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 0
-  m_SplashScreenOverlayOpacity: 1
-  m_SplashScreenAnimation: 1
+  m_SplashScreenOverlayOpacity: 0.45
+  m_SplashScreenAnimation: 2
   m_SplashScreenLogoStyle: 1
   m_SplashScreenDrawMode: 1
-  m_SplashScreenBackgroundAnimationZoom: 1
-  m_SplashScreenLogoAnimationZoom: 1
+  m_SplashScreenBackgroundAnimationZoom: 0.53
+  m_SplashScreenLogoAnimationZoom: 0
   m_SplashScreenBackgroundLandscapeAspect: 1
   m_SplashScreenBackgroundPortraitAspect: 1
   m_SplashScreenBackgroundLandscapeUvs:
@@ -40,9 +40,9 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: 21300000, guid: 10082584b8d7ec94aadd246b5458db1c, type: 3}
+  - logo: {fileID: 21300000, guid: 7cf58e546c6895846a92766022df7a85, type: 3}
     duration: 2
-  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 10082584b8d7ec94aadd246b5458db1c, type: 3}
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 06973ed9f453b1a4db777635d52e86de, type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
@@ -145,8 +145,6 @@ PlayerSettings:
   bundleVersion: 0.1.0
   preloadedAssets:
   - {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  - {fileID: 4325324043675927702, guid: 9c16c75b199d7d6449b3dabb9304cba5, type: 2}
-  - {fileID: 11400000, guid: 87ccfbe5d6ba81c4e9e651d05075017d, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -186,7 +184,7 @@ PlayerSettings:
   iPhoneStrippingLevel: 0
   iPhoneScriptCallOptimization: 0
   ForceInternetPermission: 0
-  ForceSDCardPermission: 0
+  ForceSDCardPermission: 1
   CreateWallpaper: 0
   androidSplitApplicationBinary: 0
   keepLoadedShadersAlive: 0
@@ -262,7 +260,7 @@ PlayerSettings:
   templateDefaultScene: Assets/Scenes/SampleScene.unity
   useCustomMainManifest: 0
   useCustomLauncherManifest: 0
-  useCustomMainGradleTemplate: 0
+  useCustomMainGradleTemplate: 1
   useCustomLauncherGradleManifest: 0
   useCustomBaseGradleTemplate: 0
   useCustomGradlePropertiesTemplate: 0
@@ -297,7 +295,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 10082584b8d7ec94aadd246b5458db1c, type: 3}
+      m_Icon: {fileID: 2800000, guid: 7cf58e546c6895846a92766022df7a85, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -438,38 +436,6 @@ PlayerSettings:
       m_Kind: 1
       m_SubKind: 
     - m_Textures:
-      - {fileID: 2800000, guid: 10082584b8d7ec94aadd246b5458db1c, type: 3}
-      - {fileID: 2800000, guid: 10082584b8d7ec94aadd246b5458db1c, type: 3}
-      m_Width: 432
-      m_Height: 432
-      m_Kind: 2
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 324
-      m_Height: 324
-      m_Kind: 2
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 216
-      m_Height: 216
-      m_Kind: 2
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 162
-      m_Height: 162
-      m_Kind: 2
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 108
-      m_Height: 108
-      m_Kind: 2
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 81
-      m_Height: 81
-      m_Kind: 2
-      m_SubKind: 
-    - m_Textures:
       - {fileID: 0}
       m_Width: 192
       m_Height: 192
@@ -504,6 +470,38 @@ PlayerSettings:
       m_Width: 36
       m_Height: 36
       m_Kind: 0
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 7cf58e546c6895846a92766022df7a85, type: 3}
+      - {fileID: 2800000, guid: 7cf58e546c6895846a92766022df7a85, type: 3}
+      m_Width: 432
+      m_Height: 432
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 324
+      m_Height: 324
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 216
+      m_Height: 216
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 162
+      m_Height: 162
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 108
+      m_Height: 108
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 81
+      m_Height: 81
+      m_Kind: 2
       m_SubKind: 
   - m_BuildTarget: tvOS
     m_Icons:

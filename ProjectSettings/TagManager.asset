@@ -11,9 +11,9 @@ TagManager:
   - teleportation area
   - Water
   - UI
-  - 
-  - 
-  - 
+  - BoxBoundary
+  - SpiderLayer
+  - WallLayer
   - 
   - 
   - 
